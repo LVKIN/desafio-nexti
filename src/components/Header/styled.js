@@ -38,6 +38,10 @@ export const LogoutLink = styled.div`
   padding: ${rem(12)};
   border: 1px solid #333;
   background-color: #fff;
+
+  &:hover {
+    background-color: #ddd;
+  }
 `;
 
 // export const Container = styled.div``;
