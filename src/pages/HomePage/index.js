@@ -1,15 +1,17 @@
 import React from "react";
+import Aside from "../../components/Aside";
 import Header from "../../components/Header";
 
 import * as S from "./styles";
 
 const HomePage = () => {
-  const message = "Hello World!";
 
   return (
     <S.HomePageWrapper>
       <Header />
-      {message}
+      <S.HomePageContainer>
+        <Aside />
+      </S.HomePageContainer>
     </S.HomePageWrapper>
   )
 }
